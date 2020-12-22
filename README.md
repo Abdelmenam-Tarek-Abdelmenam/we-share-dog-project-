@@ -6,13 +6,8 @@ The dataset that you will be wrangling (and analyzing and visualizing) is the tw
 
 WeRateDogs downloaded their Twitter archive and sent it to Udacity via email exclusively for you to use in this project. This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017. More on this soon.
 
-What Software Do I Need?
-The entirety of this project can be completed inside the Udacity classroom on the Project Workspace: Complete and Submit Project page using the Jupyter Notebook provided there. (Note: This Project Workspace may not be available in all versions of this project, in which case you should follow the directions below.)
-
-If you want to work outside of the Udacity classroom, the following software requirements apply:
-
-You need to be able to work in a Jupyter Notebook on your computer. Please revisit our Jupyter Notebook and Anaconda tutorials earlier in the Nanodegree program for installation instructions.
-The following packages (libraries) need to be installed. You can install these packages via conda or pip. Please revisit our Anaconda tutorial earlier in the Nanodegree program for package installation instructions.
+You need to be able to work in a Jupyter Notebook on your computer. 
+The following packages (libraries) need to be installed. You can install these packages via conda or pip. 
 pandas
 NumPy
 requests
@@ -100,7 +95,6 @@ If you can't set up a Twitter developer account using the steps above, or you pr
 Directions for accessing the Twitter data without actually creating a Twitter account:
 At the bottom of this page you can find two files you can download:
 
-twitter_api.py: This is the Twitter API code to gather some of the required data for the project. Read the code and comments, understand how the code works, then copy and paste it into your notebook.
 tweet_json.txt: This is the resulting data from twitter_api.py. You can proceed with the following part of "Gathering Data for this Project" on the Project Details page: "Then read this tweet_json.txt file line by line into a pandas DataFrame with (at minimum) tweet ID, retweet count, and favorite count."
 
 
